@@ -7,16 +7,33 @@
     <title>Document</title>
 
     <style>
-        span {
+        /* span {
+            color: red;
+        } */
+
+        h1 {
             color: red;
         }
+
+        h1::after {
+            content: "です";
+            color: black;
+        }
+
+        h1::before {
+            content: "これは";
+            color: black;
+        }
+
+
+        
     </style>
 </head>
 
 <body>
-    <h1>これは<span>H1タグ</span>です</h1>
-
-    <h2><span>これは</span>H2タグです</h2>
+    <h1 class="blue">H1タグ</h1>
+    <div></div>
+    <h2><span class="blue">これは</span>H2タグです</h2>
 
 </body>
 
